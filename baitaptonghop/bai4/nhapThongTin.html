@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Thanh Toán Tiền Điện</title>
+    <style type="text/css">
+        body {  
+    background-color: ;
+        }
+        table{
+            background: ;
+            border: ;
+        }
+        thead{
+            background: ;    
+        }
+        td {
+            color: black;
+        }
+        h3{
+           font-family: verdana;
+            text-align: center;
+/* text-anchor: middle; */
+            color: #ff8100;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+
+<form align='left' action="xulyThongTin.php" method="post">
+<table>
+    <thead>
+        <th colspan="2" align="center"><h3>Enter your information</h3></th>
+    </thead>
+    <tr><td>Họ tên:</td>
+     <td><input type="text" name="hoten" value=""/></td>
+    <tr><td>Địa chỉ:</td>
+     <td><input type="text" name="diachi" value=" "/></td>
+     <tr><td>Số Điện thoại:</td>
+     <td><input type="text" name="SDT" value=" "/></td>
+    </tr>
+    <tr><td>Giới tính:</td>
+     <td>
+     <input type="radio" name="gioitinh" value="Nam" checked="checked" />
+      <label for="vehicle1"> Nam</label>
+     <input type="radio" name="gioitinh" value="Nữ" checked="checked" />
+    <label for="vehicle2"> Nữ</label></td>
+    </tr> </label>
+    <tr><td>Quốc tịch:  </td>
+        <td>
+           
+  <select type='text'name="quoctich" value="">
+    <option value="ViệtNam">ViệtNam</option>
+    <option value="My">Mỹ</option>
+    <option value="Can">Canada</option>
+    <option value="Uc">Úc</option>
+  </select>
+        </td>
+        <tr> <td>Các môn đã học:
+            </td>
+            <td>
+                <input type="checkbox" id="vehicle1" name="cacmon" value="PHP">
+  <label for="vehicle1">PHP</label>
+  <input type="checkbox" id="vehicle2" name="cacmon" value="MySQL">
+  <label for="vehicle2"> MySQL</label>
+  <input type="checkbox" id="vehicle3" name="cacmon" value="C#">
+  <label for="vehicle3"> C#</label>
+   <input type="checkbox" id="vehicle3" name="cacmon" value="XML">
+  <label for="vehicle3"> XML</label>
+   <input type="checkbox" id="vehicle3" name="cacmon" value="Python">
+  <label for="vehicle3"> Python</label>
+            </td>
+            <tr><td>Ghi chú:</td>
+                <td colspan="10">
+                    <input type="text-box" name="ghichu" value=" "/>
+                </td>
+            </tr>
+            
+        </tr>
+    </tr>
+    <tr>
+   <td colspan="center">
+        <input type="submit" value="Gửi ">  
+    <input type="submit" value="Hủy">
+   </td>
+    
+    </tr>
+    
+</table>
+</form>
+</body>
+</html>
+
